@@ -47,10 +47,53 @@ table {
 	border-spacing: 0;
 }
 
-p {
-	margin: 100px 100px 100px 100px;
+body {
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-bottom: 50px;
+	background-color: #5DADE2;
 }
 
-#sf {
-	align-content: right;
+h1 {
+	font-size: 100px;
+	text-decoration: strong;
+	text-align: center;
+}
+
+h2 {
+	font-size: 50px;
+	text-decoration: underline;
+}
+
+li {
+    list-style-type: circle;
+ }
+
+article {
+	font-size: 20px;
+}
+
+.glist {
+	text-decoration: underline;
+	margin-bottom: 5px;
+}
+
+#sfimage {
+	position: relative;
+	float: right;
+}
+
+#roleplaying {
+	position: relative;
+	float: right;
+}
+
+#action {
+	position: relative;
+	float: right;
+}
+
+article {
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
